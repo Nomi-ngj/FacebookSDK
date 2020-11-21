@@ -21,7 +21,7 @@
 		234B3F3EC871A93C7778A9B5 /* Pods_Social_LoginSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_LoginSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		601E38ED153DA6397F5CF67E /* Pods-Social_LoginSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social_LoginSdk.release.xcconfig"; path = "Target Support Files/Pods-Social_LoginSdk/Pods-Social_LoginSdk.release.xcconfig"; sourceTree = "<group>"; };
 		80609169AA7061F724DBA33F /* Pods-Social_LoginSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social_LoginSdk.debug.xcconfig"; path = "Target Support Files/Pods-Social_LoginSdk/Pods-Social_LoginSdk.debug.xcconfig"; sourceTree = "<group>"; };
-		AA2E3E9A256919D9000815D7 /* Social_LoginSdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Social_LoginSdk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2E3E9A256919D9000815D7 /* Login With Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login With Facebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2E3E9D256919D9000815D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA2E3EA1256919DA000815D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA2E3EA4256919DA000815D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		AA2E3E9B256919D9000815D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA2E3E9A256919D9000815D7 /* Social_LoginSdk.app */,
+				AA2E3E9A256919D9000815D7 /* Login With Facebook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA2E3E99256919D9000815D7 /* Social_LoginSdk */ = {
+		AA2E3E99256919D9000815D7 /* Login With Facebook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA2E3EAE256919DC000815D7 /* Build configuration list for PBXNativeTarget "Social_LoginSdk" */;
+			buildConfigurationList = AA2E3EAE256919DC000815D7 /* Build configuration list for PBXNativeTarget "Login With Facebook" */;
 			buildPhases = (
 				093FA572D3A1F2EE3454E7AA /* [CP] Check Pods Manifest.lock */,
 				AA2E3E96256919D9000815D7 /* Sources */,
@@ -119,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = Social_LoginSdk;
+			name = "Login With Facebook";
 			productName = Social_LoginSdk;
-			productReference = AA2E3E9A256919D9000815D7 /* Social_LoginSdk.app */;
+			productReference = AA2E3E9A256919D9000815D7 /* Login With Facebook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA2E3E95256919D9000815D7 /* Build configuration list for PBXProject "Social_LoginSdk" */;
+			buildConfigurationList = AA2E3E95256919D9000815D7 /* Build configuration list for PBXProject "Login With Facebook" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA2E3E99256919D9000815D7 /* Social_LoginSdk */,
+				AA2E3E99256919D9000815D7 /* Login With Facebook */,
 			);
 		};
 /* End PBXProject section */
@@ -404,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA2E3E95256919D9000815D7 /* Build configuration list for PBXProject "Social_LoginSdk" */ = {
+		AA2E3E95256919D9000815D7 /* Build configuration list for PBXProject "Login With Facebook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA2E3EAC256919DC000815D7 /* Debug */,
@@ -413,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA2E3EAE256919DC000815D7 /* Build configuration list for PBXNativeTarget "Social_LoginSdk" */ = {
+		AA2E3EAE256919DC000815D7 /* Build configuration list for PBXNativeTarget "Login With Facebook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA2E3EAF256919DC000815D7 /* Debug */,
