@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func facebookLogin(_ sender:UIButton){
-        FacebookManager.view = self
+        FacebookManager.delegate = self
         FacebookManager.shared.login { (facebookUser, error) in
             if let error = error{
                 debugPrint(error)
