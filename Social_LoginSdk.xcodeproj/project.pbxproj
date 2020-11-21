@@ -13,6 +13,8 @@
 		AA2E3EA5256919DA000815D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2E3EA3256919DA000815D7 /* Main.storyboard */; };
 		AA2E3EA7256919DC000815D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2E3EA6256919DC000815D7 /* Assets.xcassets */; };
 		AA2E3EAA256919DC000815D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2E3EA8256919DC000815D7 /* LaunchScreen.storyboard */; };
+		AA2E3EE125695EB9000815D7 /* FacebookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E3EE025695EB9000815D7 /* FacebookResponse.swift */; };
+		AA2E3EE425696057000815D7 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E3EE325696057000815D7 /* FacebookManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AA2E3EA6256919DC000815D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA2E3EA9256919DC000815D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA2E3EAB256919DC000815D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2E3EE025695EB9000815D7 /* FacebookResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookResponse.swift; sourceTree = "<group>"; };
+		AA2E3EE325696057000815D7 /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 		AA2E3EC425693039000815D7 /* Facebook SDK */ = {
 			isa = PBXGroup;
 			children = (
+				AA2E3EE025695EB9000815D7 /* FacebookResponse.swift */,
+				AA2E3EE325696057000815D7 /* FacebookManager.swift */,
 			);
 			path = "Facebook SDK";
 			sourceTree = "<group>";
@@ -210,6 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2E3EE125695EB9000815D7 /* FacebookResponse.swift in Sources */,
+				AA2E3EE425696057000815D7 /* FacebookManager.swift in Sources */,
 				AA2E3EA2256919DA000815D7 /* ViewController.swift in Sources */,
 				AA2E3E9E256919D9000815D7 /* AppDelegate.swift in Sources */,
 			);
