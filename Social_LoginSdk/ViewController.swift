@@ -20,8 +20,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func facebookLogin(_ sender:UIButton){
-//        let facebookLoginManger : Facebo = FacebookLogin()
-//        facebookLoginManger.log
         let fbManager : LoginManager = LoginManager()
         fbManager.logIn(permissions: ["public_profile","email"], from: self) { (result, error) in
             if error != nil {
@@ -38,24 +36,6 @@ class ViewController: UIViewController {
                 }
             }
         }
-//        let fbLoginManager : FBSDKLoginManager = FBSDKLoginManager()
-//          fbLoginManager.loginBehavior = FBSDKLoginBehavior.web
-//          fbLoginManager.logIn(withReadPermissions: ["public_profile","email"], from: self) { (result, error) -> Void in
-//              if error != nil {
-//                  print(error!.localizedDescription)
-//                  self.dismiss(animated: true, completion: nil)
-//              } else if result!.isCancelled {
-//                  print("Cancelled")
-//                  self.dismiss(animated: true, completion: nil)
-//              } else {
-//                  FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, relationship_status"]).start(completionHandler: { (connection, result, error) -> Void in
-//                      if (error == nil){
-//                          let fbDetails = result as! NSDictionary
-//                          print(fbDetails)
-//                      }
-//                  })
-//              }
-//          }
     }
     
 }
